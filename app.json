@@ -1,0 +1,36 @@
+{
+    "name": "QuizBot",
+    "description": "A PTB bot, which can easily be deployed to Heroku.",
+    "repository": "https://github.com/lokeshdausaaa/QuizBot",
+    "logo": "",
+    "keywords": [
+        "python",
+        "ptb",
+        "telegram",
+        "python-telegram-bot"
+    ],
+    "image": "heroku/python",
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "env": {
+        "TOKEN": {
+            "description": "Bot API Key from BotFather https://t.me/BotFather"
+        },
+        "SHEET1": {
+            "description": "API key from https://sheet.best"
+        },
+        "SHEET2": {
+            "description": "API key from https://sheet.best"
+        },
+        "HEROKU": {
+            "description": "Heroku app link. Type App Name to get link."
+        },
+        "OWNER": {
+            "description": "Telegram ID of the bot owner."
+        }
+    }
+}
